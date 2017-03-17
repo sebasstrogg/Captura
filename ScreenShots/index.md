@@ -2,8 +2,6 @@
 layout: page
 ---
 
-# ScreenShots
-
 ## Collapsed
 ![Collapsed](img/main.png)
 
