@@ -6,29 +6,13 @@
 </footer>
 
 <style>
+html {
+    position: relative;
+}
+
 footer {
     padding-bottom: 30px;
-    display: none;
+    position: absolute;
+    bottom: 0;
 }
 </style>
-
-<script>
-$(function() {
-    $(window).resize(function() {
-        var docHeight = $(window).height();
-        var footerHeight = $('footer').outerHeight();
-        var footerTop = $('footer').position().top + footerHeight;
-
-        if (footerTop < docHeight) {
-            $('footer').css('margin-top', (docHeight - footerTop) + 'px');
-        }
-        else {
-            $('footer').css('margin-top', '');
-        }
-
-        $('footer').show();
-    });
-
-    $(window).resize();
-})
-</script>
