@@ -6,7 +6,6 @@ title: Dependencies
 <script src="scripts/nugetDownloadsBadge.js"></script>
 
 ## Required Dependencies
-------------------------
 
 ### [Screna](https://github.com/MathewSachin/Screna)
 Screna does the real work of capturing Screen.
@@ -17,9 +16,11 @@ Screna does the real work of capturing Screen.
 [![Issues](https://img.shields.io/github/issues/MathewSachin/Screna.svg?style=flat-square)](https://github.com/MathewSachin/Screna/issues)
 [![Gratipay](https://img.shields.io/gratipay/team/Screna.svg?style=flat-square)](https://gratipay.com/Screna/)
 [![Build Status](https://img.shields.io/appveyor/ci/MathewSachin/Screna.svg?style=flat-square)](https://ci.appveyor.com/project/MathewSachin/Screna)
+[![Chat](https://img.shields.io/gitter/room/MathewSachin/Screna.svg?style=flat-square)](https://gitter.im/MathewSachin/Screna)
+
+-----------------------------
 
 ## Optional Dependencies
-------------------------
 
 ### FFMpeg
 Audio/Video encoding support.
@@ -49,6 +50,7 @@ Microphone Recording and Speaker Output (Wasapi Loopback) capture with mixing su
 [![Issues](https://img.shields.io/github/issues/ManagedBass/ManagedBass.svg?style=flat-square)](https://github.com/ManagedBass/ManagedBass/issues)
 [![Gratipay](https://img.shields.io/gratipay/team/ManagedBass.svg?style=flat-square)](https://gratipay.com/ManagedBass/)
 [![Build Status](https://img.shields.io/appveyor/ci/MathewSachin/ManagedBass.svg?style=flat-square)](https://ci.appveyor.com/project/MathewSachin/managedbass)
+[![Chat](https://img.shields.io/gitter/room/ManagedBass/ManagedBass.svg?style=flat-square)](https://gitter.im/ManagedBass/ManagedBass)
 
 ### [NAudio](https://github.com/NAudio/NAudio)
 Microphone Recording support when ManagedBass is not present.
