@@ -3,40 +3,47 @@ layout: page
 title: Dependencies
 ---
 
+<script src="scripts/nugetDownloadsBadge.js"></script>
+
 ## Required Dependencies
 ------------------------
 
-### Screna
+### [Screna](https://github.com/MathewSachin/Screna)
 Screna does the real work of capturing Screen.
 
 <a href="https://nuget.org/packages/Screna" id="ScrenaNuGet"></a>
 [![Stars](https://img.shields.io/github/stars/MathewSachin/Screna.svg?style=flat-square)](https://github.com/MathewSachin/Screna/stargazers)
 [![Forks](https://img.shields.io/github/forks/MathewSachin/Screna.svg?style=flat-square)](https://github.com/MathewSachin/Screna/fork)
-<a href="https://github.com/MathewSachin/Screna/issues"><img src="https://img.shields.io/github/issues/MathewSachin/Screna.svg?style=flat-square"></a>
-<a href="https://gratipay.com/Screna/"><img src="https://img.shields.io/gratipay/team/Screna.svg?style=flat-square"></a>            
-<a href="https://ci.appveyor.com/project/MathewSachin/Screna"><img src="https://img.shields.io/appveyor/ci/MathewSachin/Screna.svg?style=flat-square"></a>
-
-<script src="scripts/nugetDownloadsBadge.js"></script>
+[![Issues](https://img.shields.io/github/issues/MathewSachin/Screna.svg?style=flat-square)](https://github.com/MathewSachin/Screna/issues)
+[![Gratipay](https://img.shields.io/gratipay/team/Screna.svg?style=flat-square)](https://gratipay.com/Screna/)
+[![Build Status](https://img.shields.io/appveyor/ci/MathewSachin/Screna.svg?style=flat-square)](https://ci.appveyor.com/project/MathewSachin/Screna)
 
 ## Optional Dependencies
 ------------------------
 
 ### FFMpeg
+Audio/Video encoding support.
 
 ### MouseKeyHook
+Capture Mouse Clicks and Keystrokes as Overlays.
 
-### SharpAvi
+### [SharpAvi](https://github.com/bassill/sharpavi/)
 Avi encodig support.
 
-### ManagedBass
+<a href="https://nuget.org/packages/SharpAvi" id="SharpAviNuGet"></a>
+[![Stars](https://img.shields.io/github/stars/bassill/sharpavi.svg?style=flat-square)](https://github.com/bassill/sharpavi/stargazers)
+[![Forks](https://img.shields.io/github/forks/bassill/sharpavi.svg?style=flat-square)](https://github.com/bassill/sharpavi/fork)
+[![Issues](https://img.shields.io/github/issues/bassill/sharpavi.svg?style=flat-square)](https://github.com/bassill/sharpavi/issues)
+
+### [ManagedBass](https://github.com/ManagedBass/ManagedBass)
 Microphone Recording and Speaker Output (Wasapi Loopback) capture with mixing support.
 
 <a href="https://nuget.org/packages/ManagedBass" id="MBassNuGet"></a>
-<a href="https://github.com/ManagedBass/ManagedBass/stargazers"><img src="https://img.shields.io/github/stars/ManagedBass/ManagedBass.svg?style=flat-square"></a>
-<a href="https://github.com/ManagedBass/ManagedBass/fork"><img src="https://img.shields.io/github/forks/ManagedBass/ManagedBass.svg?style=flat-square"></a>
-<a href="https://github.com/ManagedBass/ManagedBass/issues"><img src="https://img.shields.io/github/issues/ManagedBass/ManagedBass.svg?style=flat-square"></a>            
-<a href="https://gratipay.com/ManagedBass/"><img src="https://img.shields.io/gratipay/team/ManagedBass.svg?style=flat-square"></a>
-<a href="https://ci.appveyor.com/project/MathewSachin/managedbass"><img src="https://img.shields.io/appveyor/ci/MathewSachin/ManagedBass.svg?style=flat-square"></a>
+[![Stars](https://img.shields.io/github/stars/ManagedBass/ManagedBass.svg?style=flat-square)](https://github.com/ManagedBass/ManagedBass/stargazers)
+[![Forks](https://img.shields.io/github/forks/ManagedBass/ManagedBass.svg?style=flat-square)](https://github.com/ManagedBass/ManagedBass/fork)
+[![Issues](https://img.shields.io/github/issues/ManagedBass/ManagedBass.svg?style=flat-square)](https://github.com/ManagedBass/ManagedBass/issues)
+[![Gratipay](https://img.shields.io/gratipay/team/ManagedBass.svg?style=flat-square)](https://gratipay.com/ManagedBass/)
+[![Build Status](https://img.shields.io/appveyor/ci/MathewSachin/ManagedBass.svg?style=flat-square)](https://ci.appveyor.com/project/MathewSachin/managedbass)
 
-### NAudio
+### [NAudio](https://github.com/NAudio/NAudio)
 Microphone Recording support when ManagedBass is not present.
