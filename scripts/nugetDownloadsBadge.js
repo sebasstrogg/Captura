@@ -41,5 +41,7 @@ $(function ()
 {
     NuGetDownloadBadge("ManagedBass", "MBassNuGet");
     NuGetDownloadBadge("Screna", "ScrenaNuGet");
-    NuGetDownloadBadge("SharpAvi", "SharpAviNuGet")
+    NuGetDownloadBadge("SharpAvi", "SharpAviNuGet");
+    NuGetDownloadBadge("NAudio", "NAudioNuGet");
+    NuGetDownloadBadge("MouseKeyHook", "MouseKeyHookNuGet");
 });

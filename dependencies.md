@@ -24,8 +24,13 @@ Screna does the real work of capturing Screen.
 ### FFMpeg
 Audio/Video encoding support.
 
-### MouseKeyHook
+### [MouseKeyHook](https://github.com/gmamaladze/globalmousekeyhook)
 Capture Mouse Clicks and Keystrokes as Overlays.
+
+<a href="https://nuget.org/packages/MouseKeyHook" id="MouseKeyHookNuGet"></a>
+[![Stars](https://img.shields.io/github/stars/gmamaladze/globalmousekeyhook.svg?style=flat-square)](https://github.com/gmamaladze/globalmousekeyhook/stargazers)
+[![Forks](https://img.shields.io/github/forks/gmamaladze/globalmousekeyhook.svg?style=flat-square)](https://github.com/gmamaladze/globalmousekeyhook/fork)
+[![Issues](https://img.shields.io/github/issues/gmamaladze/globalmousekeyhook.svg?style=flat-square)](https://github.com/gmamaladze/globalmousekeyhook/issues)
 
 ### [SharpAvi](https://github.com/bassill/sharpavi/)
 Avi encodig support.
@@ -47,3 +52,8 @@ Microphone Recording and Speaker Output (Wasapi Loopback) capture with mixing su
 
 ### [NAudio](https://github.com/NAudio/NAudio)
 Microphone Recording support when ManagedBass is not present.
+
+<a href="https://nuget.org/packages/NAudio" id="NAudioNuGet"></a>
+[![Stars](https://img.shields.io/github/stars/naudio/naudio.svg?style=flat-square)](https://github.com/naudio/naudio/stargazers)
+[![Forks](https://img.shields.io/github/forks/naudio/naudio.svg?style=flat-square)](https://github.com/naudio/naudio/fork)
+[![Issues](https://img.shields.io/github/issues/naudio/naudio.svg?style=flat-square)](https://github.com/naudio/naudio/issues)
