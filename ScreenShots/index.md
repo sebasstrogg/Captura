@@ -7,15 +7,14 @@ title: ScreenShots
 ![Collapsed](img/main.png)
 
 <div class="row">
-<div class="col-md-6">
-### Expanded
-![Expanded](img/expanded.png)
-</div>
-
-<div class="col-md-6">
-### Hotkey Config
-![Hotkey Config](img/hotkey.png)
-</div>
+    <div class="col-md-6">
+	    <h3>Expanded</h3>
+		<p><img src="img/expanded.png"/></p>
+	</div>
+    <div class="col-md-6">
+	    <h3>Hotkey Config</h3>
+		<p><img src="img/hotkey.png"/></p>
+	</div>
 </div>
 
 ### Region Selector
