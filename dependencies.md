@@ -14,6 +14,7 @@ Screna does the real work of capturing Screen.
 [![Stars](https://img.shields.io/github/stars/MathewSachin/Screna.svg?style=flat-square)](https://github.com/MathewSachin/Screna/stargazers)
 [![Forks](https://img.shields.io/github/forks/MathewSachin/Screna.svg?style=flat-square)](https://github.com/MathewSachin/Screna/fork)
 [![Issues](https://img.shields.io/github/issues/MathewSachin/Screna.svg?style=flat-square)](https://github.com/MathewSachin/Screna/issues)
+
 [![Gratipay](https://img.shields.io/gratipay/team/Screna.svg?style=flat-square)](https://gratipay.com/Screna/)
 [![Build Status](https://img.shields.io/appveyor/ci/MathewSachin/Screna.svg?style=flat-square)](https://ci.appveyor.com/project/MathewSachin/Screna)
 [![Chat](https://img.shields.io/gitter/room/MathewSachin/Screna.svg?style=flat-square)](https://gitter.im/MathewSachin/Screna)
@@ -24,6 +25,8 @@ Screna does the real work of capturing Screen.
 
 ### FFMpeg
 Audio/Video encoding support.
+
+`ffmpeg.exe` needs to be placed in the same directory as `Captura.exe`.
 
 ### [MouseKeyHook](https://github.com/gmamaladze/globalmousekeyhook)
 Capture Mouse Clicks and Keystrokes as Overlays.
@@ -44,10 +47,13 @@ Avi encodig support.
 ### [ManagedBass](https://github.com/ManagedBass/ManagedBass)
 Microphone Recording and Speaker Output (Wasapi Loopback) capture with mixing support.
 
+`bass.dll` and `bassmix.dll` need to be placed in the same directory as `Captura.exe`.
+
 <a href="https://nuget.org/packages/ManagedBass" id="MBassNuGet"></a>
 [![Stars](https://img.shields.io/github/stars/ManagedBass/ManagedBass.svg?style=flat-square)](https://github.com/ManagedBass/ManagedBass/stargazers)
 [![Forks](https://img.shields.io/github/forks/ManagedBass/ManagedBass.svg?style=flat-square)](https://github.com/ManagedBass/ManagedBass/fork)
 [![Issues](https://img.shields.io/github/issues/ManagedBass/ManagedBass.svg?style=flat-square)](https://github.com/ManagedBass/ManagedBass/issues)
+
 [![Gratipay](https://img.shields.io/gratipay/team/ManagedBass.svg?style=flat-square)](https://gratipay.com/ManagedBass/)
 [![Build Status](https://img.shields.io/appveyor/ci/MathewSachin/ManagedBass.svg?style=flat-square)](https://ci.appveyor.com/project/MathewSachin/managedbass)
 [![Chat](https://img.shields.io/gitter/room/ManagedBass/ManagedBass.svg?style=flat-square)](https://gitter.im/ManagedBass/ManagedBass)
