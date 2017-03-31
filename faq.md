@@ -4,7 +4,7 @@ title: Frequently Asked Questions
 ---
 
 ### Will Captura support Linux or Mac?
-Captura is written using C# programming language and .NET Framework, which at present, is only supported on Windows.
+Captura is written using .NET Framework, which at present, is supported only on Windows.
 
 Software written using .NET Framework can work on Linux and Mac using Mono but the native calls and UI pose a problem to that.
 
@@ -16,6 +16,11 @@ No. Not currently.
 Games using DirectX run in a special mode where the current capture methods fail.
 
 We have tried a good project: https://github.com/spazzarama/Direct3DHook but the performance needs to be tweaked before it can be used for Video Recording.
+
+### Why is Recorded Video of the size of entire screen when I capture a specific Window?
+When capturing a specific Window, there is a possibility of that Window being moved or resized.
+The video size must be big enough to encorporate resizing.
+So, it is kept of the size of the entire screen.
 
 ### Why does the captured video playback very fast? ([#44](https://github.com/MathewSachin/Captura/issues/44))
 This may happen for framerates greater than 30fps.

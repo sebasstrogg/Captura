@@ -4,6 +4,16 @@ title: Dependencies
 ---
 
 <script src="scripts/nugetDownloadsBadge.js"></script>
+<script>
+$(function ()
+{
+    NuGetDownloadBadge("ManagedBass", "MBassNuGet");
+    NuGetDownloadBadge("Screna", "ScrenaNuGet");
+    NuGetDownloadBadge("SharpAvi", "SharpAviNuGet");
+    NuGetDownloadBadge("NAudio", "NAudioNuGet");
+    NuGetDownloadBadge("MouseKeyHook", "MouseKeyHookNuGet");
+});
+</script>
 
 ## Required Dependencies
 
