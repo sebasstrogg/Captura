@@ -10,3 +10,8 @@ img {
     background-color: #1abc9c;
     color: #ffffff;
 }
+
+.bg-teal a {
+    color: #3D3D3D;
+    font-style: italic;
+}
